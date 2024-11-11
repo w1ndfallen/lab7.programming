@@ -18,7 +18,7 @@ int main() {
             sum += array [i][j];
         }
         double average = static_cast<double>(sum) / cols;
-        cout << "Середнє значення для рядка " << i + 1 << ": " << average << endl;
+        cout << "The average value for the row " << i + 1 << ": " << average << endl;
     }
 
     return 0;
